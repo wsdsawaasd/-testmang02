@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        let string = 'ch-2oan-3g.010-1sc-4o5md';
+        let time = 0;
+        for (let i = 0; i < string.length; i++) {
+            if (string.slice(i, i + 2) < 0 || string.slice(i, i + 2) > 0 || string.slice(i, i + 1) > 0 ) {
+                time = time + 1
+            }
+        }
+        alert(time)
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    let a = prompt("input string");
+    let b = prompt("input string");
+    let time = 0;
+    for (let i = 0; i < a.length; i++) {
+        if (a.slice(i, i + 1) === b.slice(i, i + 1)) {
+            time = time + 1
+        }
+    }
+    if (time === a.length && a.length === b.length) {
+        alert("string a = string b")
+    } else {
+        alert("string a != string b")
+    }
+</script>
+</body>
+</html>

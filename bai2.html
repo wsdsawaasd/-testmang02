@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    let arr2 = ['c', 's', 'c', '2', '6', '1'];
+    let first = 0;
+    let last = arr2.length - 1;
+    while (first < last) {
+        let a = arr2[first];
+        arr2[first] = arr2 [last];
+        arr2[last] = a;
+        first++;
+        last--;
+    }
+    console.log(arr2);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <script>
+        let arr = [];
+        let time = 0;
+        let number = prompt("input element number of arr");
+        for (let i = 0 ; i < number ; i++) {
+            arr[i] = prompt("input random");
+            if (arr[i] > 0 || arr[i] < 0) {
+                time++
+            }
+        }
+        alert(time)
+    </script>
+</body>
+</html>
